@@ -1,0 +1,12 @@
+### Gradle ###
+.gradle
+**/build/
+
+### Ignore IntelliJ IDEA... ###
+.idea/*
+*.iws
+*.iml
+*.ipr
+### ...but keep codestyle files 🤩 ###
+!.idea/
+!.idea/codeStyles

@@ -1,0 +1,10 @@
+version: '3.8'
+
+networks:
+  kafka:
+    driver: bridge
+
+include:
+  - kafka/zookeeper.yml
+  - kafka/broker.yml
+  - kafka/schema-registry.yml
